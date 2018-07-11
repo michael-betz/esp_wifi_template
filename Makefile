@@ -3,7 +3,7 @@
 # project subdirectory.
 #
 
-PROJECT_NAME := espirgbani
+PROJECT_NAME := Template
 
 include $(IDF_PATH)/make/project.mk
 
@@ -15,6 +15,6 @@ spiffs-flash: ./build/spiffs.img
 
 web-flash: $(APP_BIN)
 	@echo "Flashing app to http POST ..."
-	curl -X POST --data-binary @$(APP_BIN) http://espirgbani/flash/upload; curl http://espirgbani/reboot
+	curl -X POST --data-binary @$(APP_BIN) http://Template/flash/upload; curl http://Template/reboot
 
 .PHONY: spiffs.img, flashSpiffs

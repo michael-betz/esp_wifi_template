@@ -1,5 +1,5 @@
 {
-    "hostname": "Nixie",
+    "hostname": "Template",
     "wifis": {
         "ENTER_WIFI_SSID": {
             "pw": "ENTER_WIFI_PASSWORD"
